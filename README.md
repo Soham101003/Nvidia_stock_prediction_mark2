@@ -1,3 +1,4 @@
+![Screenshot 2024-12-11 231905](https://github.com/user-attachments/assets/8c7dd2fb-c55c-4286-918b-b2c9bea3646f)
 # Nvidia Stock Price Prediction Project
 In this project, I worked on predicting Nvidia’s stock prices in real-time using different time series forecasting and machine learning models. The goal was to analyze the stock’s historical data and predict its future prices with high accuracy. I leveraged ARIMA, Random Forest, and XGBoost for this task.
 
