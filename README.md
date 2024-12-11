@@ -27,4 +27,53 @@ Normalized RMSE (%): 27.92%
 
 Despite ARIMA’s potential, its performance wasn’t as robust due to the volatility in stock prices, which the model wasn’t fully equipped to handle.
 
+# 2.Random Forest
+Random Forest Random Forest is an ensemble learning method that uses multiple decision trees to make predictions. It’s more flexible and handles non-linearity better than ARIMA.
+
+## Performance Metrics for Random Forest:
+Mean Squared Error (MSE): 0.58 
+
+Root Mean Squared Error (RMSE): 0.76
+
+Mean Absolute Error (MAE): 0.32
+
+R² Score: 0.9994 (indicating an excellent fit)
+
+Mean Absolute Percentage Error (MAPE): 1.87%
+
+Mean Absolute Scaled Error (MASE): 1.11
+
+The Random Forest model showed excellent results with a very high R² score, making it one of the best-performing models for this task.
+
+# 3. XGboost
+XGBoost XGBoost is a powerful gradient-boosting algorithm that improves upon traditional decision trees by focusing on sequentially optimizing the model’s performance. It also handles missing data and overfitting more effectively.
+
+## Performance metrics for XGboost
+Mean Squared Error (MSE): 1.75
+
+Root Mean Squared Error (RMSE): 1.32
+
+Mean Absolute Error (MAE): 0.49
+
+R² Score: 0.9982
+
+Mean Absolute Percentage Error (MAPE): 2.09%
+
+Mean Absolute Scaled Error (MASE): 1.26
+
+XGBoost showed strong performance with an R² score close to 1, similar to Random Forest, and outperformed ARIMA regarding error metrics.
+
+
+# Real-time Application
+To make the project more practical, I integrated yfinance to fetch real-time stock data, allowing the trained models to predict Nvidia’s stock price dynamically. The predictions could then be visualized in a dashboard for real-time tracking.
+
+# Conclusion
+In this project, I compared multiple models for stock price prediction and found that Random Forest and XGBoost outperformed ARIMA by a significant margin, providing more accurate predictions with lower error metrics. The results from Random Forest and XGBoost were very promising, especially with their R² scores of 0.9994 and 0.9982, respectively.
+
+For future improvements, I plan to incorporate sentiment analysis from news sources, social media, and other external factors that might impact stock prices. I also aim to explore deep learning approaches like LSTM (Long Short-Term Memory) networks for better handling of sequential data.
+
+
+
+
+
 
