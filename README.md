@@ -6,10 +6,11 @@ I used the yfinance library to collect historical stock data of Nvidia, includin
 # Modeling approach
  implemented three different models to predict Nvidia stock prices:
 
-## ARIMA (AutoRegressive Integrated Moving Average) ARIMA is a classical statistical model used for time series forecasting. It involves identifying patterns in the historical data, such as trend and seasonality, and making predictions based on these patterns.
+# 1.ARIMA
+ ARIMA (AutoRegressive Integrated Moving Average) ARIMA is a classical statistical model used for time series forecasting. It involves identifying patterns in the historical data, such as trend and seasonality, and making predictions based on these patterns.
 
 Model Selection: The ARIMA model’s parameters (p, d, q) were selected using ACF and PACF plots.
-# Performance Metrics for ARIMA:
+## Performance Metrics for ARIMA:
 Mean Squared Error (MSE): 17.21
 Root Mean Squared Error (RMSE): 4.15
 Mean Absolute Error (MAE): 3.76
