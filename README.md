@@ -12,12 +12,19 @@ I used the yfinance library to collect historical stock data of Nvidia, includin
 Model Selection: The ARIMA model’s parameters (p, d, q) were selected using ACF and PACF plots.
 ## Performance Metrics for ARIMA:
 Mean Squared Error (MSE): 17.21
+
 Root Mean Squared Error (RMSE): 4.15
+
 Mean Absolute Error (MAE): 3.76
+
 R-squared (R²): -0.56 (indicating poor fit to data)
+
 Mean Absolute Percentage Error (MAPE): 2.72%
+
 Mean Absolute Scaled Error (MASE): 1.82
+
 Normalized RMSE (%): 27.92%
+
 Despite ARIMA’s potential, its performance wasn’t as robust due to the volatility in stock prices, which the model wasn’t fully equipped to handle.
 
 
